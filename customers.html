@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.png" alt="Maverick Bank Logo" width="100" height="50"
+                    class="d-inline-block align-top ml-2">
+                MAVERICK BANK
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-2" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contactUs.html">Contact Us</a>
+                    </li>
+
+                    <!-- Dropdown Option -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Reports
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                            <li><a class="dropdown-item" href="#">Account Statement</a></li>
+                            <li><a class="dropdown-item" href="#">Transaction History</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+  
+    
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+        Important Notice: We will never ask you to share sensitive information or conduct transactions over the phone.
+        Please be cautious of any unsolicited calls claiming to be from our bank. If in doubt, contact our official
+        customer support for verification.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+
+
+    <div class="border-dark p-4 mt-4 bg-light">
+        <div class="container text-center my-4">
+            <div class="row">
+                <!-- Deposit Column -->
+                <div class="col-md-4">
+                    <img src="deposit.jpg" alt="Deposit Image" class="img-fluid mb-3 border-bottom">
+                    <a href="/deposit.html" class="btn btn-info btn-lg border-left">Deposit Funds</a>
+                </div>
+
+                <!-- Withdraw Column -->
+                <div class="col-md-4 border-start border-end">
+                    <img src="withdraw.jpg" alt="Withdraw Image" class="img-fluid mb-3 border-bottom">
+                    <a href="/withdraw.html" class="btn btn-warning btn-lg border-left border-right">Withdraw Funds</a>
+                </div>
+
+                <!-- Transfer Funds Column -->
+                <div class="col-md-4">
+                    <img src="transfer.jpg" alt="Transfer Image" class="img-fluid mb-3 border-bottom">
+                    <a href="/transfer.html" class="btn btn-danger btn-lg border-right">Transfer Funds</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- 
+    <div class="container text-center my-4">
+        <div class="card" style="width: 18rem;">
+            <img src="loan.jpg" class="card-img-top" alt="loan">
+            <div class="card-body">
+                <h5 class="card-title">Get Loan with Minimal Interest</h5>
+                <p class="card-text">Embark on your journey to financial empowerment with Maverick Bank, your trusted
+                    partner in making dreams come true. At Maverick Bank, we understand that turning dreams into reality
+                    often requires a financial boost, and we're here to offer you loans with minimal interest rates.</p>
+            </div>
+            <div class="card-body">
+                <a href="https://www.worldscientific.com/worldscibooks/10.1142/q0435#t=aboutBook" class="card-link">Know More</a>
+            </div>
+        </div> -->
+
+
+
+    <div class="container my-4 border bg-light">
+        <div class="row">
+            <!-- Left -->
+            <div class="col-md-6">
+                <div class="card" style="width: 100%;">
+                    <img src="loan.jpg" class="card-img-top" alt="loan">
+                    <div class="card-body">
+                        <h5 class="card-title">Get Loan with Minimal Interest</h5>
+                        <p class="card-text">Embark on your journey to financial empowerment with Maverick Bank, your
+                            trusted partner in making dreams come true.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.worldscientific.com/worldscibooks/10.1142/q0435#t=aboutBook"
+                            class="card-link">Know More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-md-6 text-center">
+                <img src="loans.jpg" class="img-fluid mb-3" alt="apply for loan">
+                <button type="button" class="btn btn-primary btn-lg btn-block">Apply for Loan</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="container-fluid text-center bg-dark text-light my-4 ">
+        <p class="float-md-right"><a href="#">Back to top</a></p>
+        <p>© 2020-2021 MAVERICK BANK, Inc. · <a href="#" class="text-light">Privacy</a> · <a href="#"
+                class="text-light">Terms</a></p>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl        +eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
